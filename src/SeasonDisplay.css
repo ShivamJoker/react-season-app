@@ -1,0 +1,50 @@
+body{
+    overflow: hidden;
+}
+.season-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+i.icon {
+  position: absolute;
+}
+
+.top-left {
+  top: 15px;
+  left: 15px;
+}
+
+.bottom-right {
+  bottom: 15px;
+  right: 15px;
+}
+
+.summer .icon {
+  color: #f1c40f;
+}
+
+.winter .icon {
+  color: #3498db;
+}
+
+.summer {
+  background: url(https://images.unsplash.com/photo-1458981924569-078d1b7cde24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1924&q=80)
+    no-repeat;
+  background-size: cover;
+}
+.winter {
+  background: url(https://images.unsplash.com/photo-1484081064812-86e90e107fa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+    no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  border: 2px solid #fffffff5;
+  padding: 20px;
+  background: rgba(3, 3, 3, 0.178);
+}
